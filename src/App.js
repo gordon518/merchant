@@ -4,13 +4,9 @@ import {connect} from 'react-redux'
 import {actions} from './redux/actions'
 import { notification } from 'antd';
 import {get, post} from './fetch';
-const dataProcess=require('./dataProcess');
 import Merchant from './Merchant'
-import style from './css/App.css'
-
 
 class App extends Component {
-
 
     render() {
 		const {list, isFetching, setFetch} = this.props;        

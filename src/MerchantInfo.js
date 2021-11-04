@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import {actions} from './redux/actions'
-import { Input, notification } from 'antd';
 import style from './css/App.css'
 
 class MerchantInfo extends Component {
