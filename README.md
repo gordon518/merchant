@@ -1,18 +1,21 @@
 
-# Submission Detials
+# Run Guide
 
-Please read the following details before you click 'Mark as Done' to your submission 
-1. Make sure that all your code is merged to the Main branch
-2. Include all files necessary to run your app, NOT just the source code, except for the **node_modules** folder
-3. Here is an example of how we will test your code 
+1. Install node-v12
+2. Run the following command to test the code 
 
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
-npm install # or yarn install
-npm start  
+git clone https://github.com/gordon518/merchant.git
+npm install # install node modules
+npm run build # build react codes with winpack
+node app.js # start the app
 ```
 
-Your app should be running on `http://localhost:3000` or whichever PORT number you specify.
+3. Open a web browser(Such as Chrome,Firefox), access the URL of `http://localhost:8888` . The app will show up the web page.
 
-If your app had a different instructions to start, then you must edit this README.md file and list out the instructions to successfully run your code.
+# Project Description
+1. This is a full-stack app derived from the seed project at https://github.com/gordon518/reactLogin . We use mainstream framework to build this app, Node Express at back-end, React as front-end. 
+2. dataMode is at sqlite/dataModel.txt, we use sqlite as database.
+3. This project not only can be run, but also can be debug. The detail of how to debug is at https://github.com/gordon518/reactLogin .
+
 
