@@ -22,7 +22,7 @@ class MerchantInfo extends Component {
                 <td colSpan="2">Price: ${item.price1}-${item.price2}</td>
             </tr>
             <tr>
-                <td colSpan="2">website: {item.website}</td>
+                <td colSpan="2">website: <a href={item.website} target="_blank">{item.website}</a></td>
             </tr>
             </table>
         )
