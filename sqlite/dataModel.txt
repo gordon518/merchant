@@ -1,0 +1,112 @@
+﻿create table merchants(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+country varchar(10),
+name varchar(128),
+mode varchar(20),
+price1 int default 0,
+price2 int default 0,
+website varchar(128),
+pic varchar(10));
+
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('USA','Prepaid Mastercard® (Choice)','In-store & Online',25,514,'https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard','01');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('USA','Prepaid Mastercard® (Virtual)','Online',10,1000,'https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard','01');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('USA','1800 Flowers','In-store & Online',15,500,'https://www.1800flowers.com/','02');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('USA','Airbnb','In-store & Online',25,500,'https://www.airbnb.com/','03');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('USA','Amazon','In-store & Online',15,500,'https://www.amazon.com/','04');
+
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('CAN','Air Canada','In-store & Online',25,2000,'https://www.aircanada.com/','05');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('CAN','Amazon','In-store & Online',5,1000,'https://www.amazon.ca/','04');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('CAN','America','In-store',25,1000,'http://americarestaurant.ca/','06');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('CAN','Auberge du Pommier','In-store',25,1000,'http://www.aubergedupommier.com/','07');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('CAN','Banana Republic','In-store & Online',5,500,'http://bananarepublic.gapcanada.ca/','08');
+
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('INTL','Prepaid Mastercard® (Choice)','In-store & Online',25,514,'https://help.guusto.com/redeeming-gifts/how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard','01');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('INTL','Prepaid Mastercard® (Virtual)','Online',10,1000,'https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard','01');
+insert into merchants(country,name,mode,price1,price2,website,pic) values ('INTL','Amazon','In-store & Online',5,1000,'https://www.amazon.ca/','04');
+insert into merchants(country,name,mode,website,pic) values ('INTL','Custom Rewards Options','In-store & Online','https://guusto.com/','09');
+
+/*data capture from https://guusto.com/merchants*/
+------US----------------------
+Name:Prepaid Mastercard® (Choice)
+Where: In-store & Online
+Price: $25 - $514
+website: https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard
+pic:01
+
+Name:Prepaid Mastercard® (Virtual)
+Where: Online
+Price: $10 - $1000
+website: https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard
+pic:01
+
+Name:1800 Flowers
+Where: In-store & Online
+Price: $15 - $500
+website: https://www.1800flowers.com/
+pic:02
+
+Name:Airbnb
+Where: In-store & Online
+Price: $25 - $500
+website: https://www.airbnb.com/
+pic:03
+
+Name:Amazon
+Where: In-store & Online
+Price: $10 - $500
+website: https://www.amazon.com/
+pic:04
+----CA----------------
+Name:Air Canada
+Where: In-store & Online
+Price: $25 - $2000
+website: https://www.aircanada.com/
+pic:05
+
+Name:Amazon
+Where: In-store & Online
+Price: $5 - $1000
+website: https://www.amazon.ca/
+pic:04
+
+Name:America
+Where: In-store
+Price: $25 - $1000
+website: http://americarestaurant.ca/
+pic:06
+
+Name:Auberge du Pommier
+Where: In-store
+Price: $25 - $1000
+website: http://www.aubergedupommier.com/
+pic:07
+
+Name:Banana Republic
+Where: In-store & Online
+Price: $5 - $500
+website: http://bananarepublic.gapcanada.ca/
+pic:08
+---------INTL---------
+Name:Prepaid Mastercard® (Choice)
+Where: In-store & Online
+Price: $25 - $514
+website: https://help.guusto.com/redeeming-gifts/how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard
+pic:01
+
+Name:Prepaid Mastercard® (Virtual)
+Where: Online
+Price: $10 - $1000
+website: https://help.guusto.com/en/articles/2896636-how-do-i-redeem-a-guusto-gift-for-a-prepaid-mastercard
+pic:01
+
+Name:Amazon
+Where: In-store & Online
+Price: $5 - $1000
+website: https://www.amazon.ca/
+pic:04
+
+Name:Custom Rewards Options
+Where: In-store & Online
+Price: N/A
+website: https://guusto.com/
+pic:09

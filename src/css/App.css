@@ -1,0 +1,58 @@
+.contentContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.loginContainer{
+    flex:1;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+}
+.bigFont {
+    font-family: "Raleway";
+    font-size: 24pt;
+}
+.onelineborder {
+    border-bottom: 1px solid #dbdbdb;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    width: 100;
+}
+.imghand {
+    cursor: hand;
+}
+.imgradius { 
+    border-radius: 50%;
+    width: 15vmin;
+    height: 15vmin;
+    object-fit: cover;
+    object-position: center;
+}
+.divcircle {
+    border-radius: 50%;
+    width: 120px;
+    height:120px;
+    border: 2px solid #EFEFEF;
+}
+
+.right { 
+    float:right; 
+}
+.linetable{
+    border: 0;
+    padding: 0;
+    border-spacing: 1;
+    width: 710;
+    background: "black";
+}
+.spanback{
+    background: #EFEFEF;
+    line-height: 2em;
+}
