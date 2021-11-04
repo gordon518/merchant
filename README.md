@@ -7,11 +7,11 @@
 ```bash
 git clone https://github.com/gordon518/merchant.git
 npm install # install node modules
-npm run build # build react codes with winpack
+npm run pack # pack react codes with winpack
 node app.js # start the app
 ```
 
-3. Open a web browser(Such as Chrome,Firefox), access the URL of `http://localhost:8888` . The app will show up the web page.
+3. Open a web browser(such as Chrome,Firefox), access the URL of `http://localhost:8888` . The web page of this app will be shown up.
 
 # Project Description
 1. This is a full-stack app derived from the seed project at https://github.com/gordon518/reactLogin . We use mainstream framework to build this app, Node Express at back-end, React as front-end. 
